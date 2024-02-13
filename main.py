@@ -42,4 +42,4 @@ def download(filename):
     return send_from_directory(static_folder, filename, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run("140.136.146.81", port=80)
+    app.run("0.0.0.0", port=80)
