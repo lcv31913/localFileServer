@@ -5,7 +5,7 @@ import os
 
 auth = HTTPBasicAuth()
 
-users = {'username': 'mmlab', 'password': '50984309'}
+users = {'username': 'account', 'password': 'pwd'}
 
 
 @auth.get_password
